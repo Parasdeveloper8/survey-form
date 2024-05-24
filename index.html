@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This survey has been organized to check number of software developer and to know more things from them.
+        <br>
+        dont't worry your details are safe
+      </p>
+      <fieldset>
+      <form id="survey-form" method="post" target="_blank">
+        <label id="name-label">Enter your name</label>
+        <br>
+          <input type="text" id="name" placeholder="paras" required>
+          <br>
+        <label id="email-label">Enter your email</label>
+        <br>
+          <input type="email" id="email" placeholder="xyz@mail.com" required>
+          <br>
+        <label id="number-label">Enter your number</label>
+        <br>
+          <input type="number" id="number" min="6" max="11" placeholder="1234567890" required>
+          <br>
+  <select id="dropdown">
+    <option></option>
+    <option></option>
+    </select>
+    <br>
+    <label for="radio1"><input type="radio" id="radio1" name="student-type" value="r1">Student</label>
+    <label for="radio2"><input type="radio" id="radio2" name="student-type" value="r2">not a student</label>
+    <br>
+    <br>
+    <label for="check1"><input type="checkbox" id="check1" name="desktop" value="c1">I have a laptop</label>
+    <label for="check2"><input type="checkbox" id="check2" name="desktop" value="c2">I have a computer</label>
+    <textarea rows="5" cols="25"></textarea>
+    <br>
+    <br>
+    <button type="submit" id="submit">Submit</button>
+        </form>
+ </fieldset>
+ <footer>
+   <p>Survey by parasdeveloper8</p>
+   </footer>
+      </body>
+      </html>

@@ -1,0 +1,63 @@
+#title{
+    text-align:center;
+    font-family:sans-serif,monospace;
+    color:silver;
+  }
+  #description{
+    font-family:helvetica;
+    font-size:1em;
+    color:silver;
+    font-weight:bold;
+    text-align:center;
+  }
+  body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNd0JU6bJxK29QoXV-yn6KXC5P6LMrkrGKg&s");
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  fieldset{
+    max-width:500px;
+    min-width:250px;
+    max-height:500px;
+    min-height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid silver;
+    box-shadow:0 0 10px silver;
+    text-align:center;
+  }
+  #name-label,#email-label,#number-label{
+    font-size:1.5em;
+    color:silver;
+  }
+  textarea{
+    width:50vh;
+    height:25vh;
+    border-radius:3vh;
+    border:1px solid black;
+    font-size:1em;
+    color:black;
+    font-weight:bold;
+  }
+  #check1,#check2,#radio1,#radio2{
+     vertical-align:top;
+  }
+  label{
+    color:silver;
+    font-size:1em;
+  
+  }
+  button{
+    border:1px solid black;
+    background-color:black;
+    color:silver;
+    width:5.4rem;
+    height:2rem;
+    border-radius:1vh;
+    font-size:1.5em;
+  }
+  p{
+    text-align:center;
+    color:silver;
+    font-size:1.5em;
+  }
